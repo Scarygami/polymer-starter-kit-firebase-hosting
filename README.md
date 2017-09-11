@@ -1,8 +1,9 @@
 # Differential Serving on Firebase
 
-This sample uses the Polymer Starter Kit as a basis to show how differential serving
-could work using Firebase Hosting and Cloud Functions for Firebase, stealing some of
-the ideas from prpl-server-node.
+This sample uses the [Polymer Starter Kit](https://github.com/PolymerElements/polymer-starter-kit)
+as a basis to show how differential serving could work using
+[Firebase Hosting and Cloud Functions for Firebase](https://firebase.google.com/docs/hosting/functions),
+stealing some of the ideas from [prpl-server-node](https://github.com/Polymer/prpl-server-node).
 
 (More Readme and probably a short article coming up...)
 
