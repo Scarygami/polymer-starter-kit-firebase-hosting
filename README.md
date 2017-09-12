@@ -5,7 +5,7 @@ as a basis to show how differential serving could work using
 [Firebase Hosting and Cloud Functions for Firebase](https://firebase.google.com/docs/hosting/functions),
 stealing some of the ideas from [prpl-server-node](https://github.com/Polymer/prpl-server-node).
 
-(More Readme and probably a short article coming up...)
+Details about my approach in [this article](https://medium.com/@scarygami/differential-serving-on-firebase-hosting-f83c33b83a8e)
 
 ### Original README of Polymer Starter Kit below
 
