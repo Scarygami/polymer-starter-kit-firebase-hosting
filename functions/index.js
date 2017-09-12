@@ -5,6 +5,8 @@ const request = require('request');
 
 exports.serve = functions.https.onRequest((req, res) => {
   const baseUrl = 'https://' + functions.config().firebase.authDomain;
+
+  // Fetch the hosted polymer.json to read the build configuration
   return rp({
     uri: baseUrl + '/polymer.json',
     json: true,
@@ -39,7 +41,6 @@ exports.serve = functions.https.onRequest((req, res) => {
       // Unfortunately this is the only way so far to make sure each
       // user gets served the appropriate version
       res.headers['Vary'] = 'user-agent';
-      res.headers['Service-Worker-Allowed'] = '/';
     }).pipe(res);
   });
 });
